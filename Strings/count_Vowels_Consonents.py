@@ -1,4 +1,4 @@
-def toggleCases(a):
+def count_Vowels_Consonents(a):
     vcount = 0
     ccount = 0
 
@@ -12,7 +12,7 @@ def toggleCases(a):
     return ccount, vcount
         
 a = "Hello world"
-consonents, vowels = toggleCases(a)
+consonents, vowels = count_Vowels_Consonents(a)
 print("consonents: ", consonents, "vowels: ", vowels)
 
 
